@@ -1,0 +1,5 @@
+
+State Machine - |mac|stream_source_1:stream_source_1|addr_gen:inst5|statusreg
+Name statusreg.00000000 
+statusreg.00000001 0 
+statusreg.00000000 1 

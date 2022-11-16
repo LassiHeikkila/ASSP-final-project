@@ -1,0 +1,49 @@
+# do mac_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying /home/user/altera/13.1/modelsim_ase/linux/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/user/altera/13.1/modelsim_ase/linux/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {mac_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity mac
+# -- Compiling architecture structure of mac
+# 
+run
+# No Design Loaded!
+do mac_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {mac_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity mac
+# -- Compiling architecture structure of mac
+# 

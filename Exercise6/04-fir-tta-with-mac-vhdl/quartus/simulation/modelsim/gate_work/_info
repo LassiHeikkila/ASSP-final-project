@@ -1,0 +1,52 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/user/04-fir-tta-with-mac-vhdl/quartus/simulation/modelsim
+Emac
+Z1 w1668618161
+Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 ]RlG5R]Q[aFAe9T5<XI<o1
+Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 czVkNK5?8i<HPTLVSV_3a2
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 oY7WPe2I:Taj0>HV`A`AH0
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 H[E=U;zSVlD;ca@gnkzIO0
+Z10 d/home/user/04-fir-tta-with-mac-vhdl/quartus/simulation/modelsim
+Z11 8mac_6_1200mv_85c_slow.vho
+Z12 Fmac_6_1200mv_85c_slow.vho
+l0
+L36
+Vdo9zmOdETd36RMEi9PH4b1
+!s100 mNaF9d]1mhgB30WDoRV9]2
+Z13 OV;C;10.1d;51
+31
+!i10b 1
+Z14 !s108 1668618873.905819
+Z15 !s90 -reportprogress|300|-93|-work|work|mac_6_1200mv_85c_slow.vho|
+Z16 !s107 mac_6_1200mv_85c_slow.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 3 mac 0 22 do9zmOdETd36RMEi9PH4b1
+l4968
+L61
+Vl4Pc@VoI9Tm<6i[Cjfja91
+!s100 dN9Ykbhm?X2iaFEmYaOEW3
+R13
+31
+!i10b 1
+R14
+R15
+R16
+R17
+R18

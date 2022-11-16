@@ -1,0 +1,21 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneiii
+Quartus root          :  /home/user/altera/13.1/quartus/linux/
+Quartus sim root      :  /home/user/altera/13.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  vhdl
+Version               :  93
+Simulation Mode       :  GUI
+Sim Output File       :  mac_6_1200mv_85c_slow.vho
+Sim SDF File       :  mac_6_1200mv_85c_vhd_slow.sdo
+Sim dir               :  simulation/modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script /home/user/altera/13.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Info: Spawning ModelSim-Altera Simulation software 

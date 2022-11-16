@@ -1,0 +1,1200 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/user/04-fir-tta-with-mac-vhdl/quartus/simulation/modelsim
+Eadd_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith
+Z1 w1668615078
+Z2 DPx4 work 4 util 0 22 O?3n9@YdB8W=MlKLDf_8J3
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx4 work 16 shl_shr_shru_pkg 0 22 gDeJjCUZ9?kEPlf?;I65j3
+Z5 DPx4 work 60 opcodes_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor 0 22 ze8VLOa0gS69J816?=;ZN1
+Z6 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 d/home/user/04-fir-tta-with-mac-vhdl/quartus/simulation/modelsim
+Z10 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl
+Z11 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl
+l0
+L143
+Vb;D335dIjnDEcJoU68d^T3
+Z12 OV;C;10.1d;51
+31
+Z13 !s108 1668618305.193996
+Z14 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl|
+Z15 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl|
+Z16 o-93 -work work -O0
+Z17 tExplicit 1
+!s100 @H_[eo@2PZ2N:Kkb6SFHV1
+!i10b 1
+Acomb
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 58 add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith 0 22 b;D335dIjnDEcJoU68d^T3
+l163
+L161
+VOc=@Kl=HFJKWdE61@D0JB2
+R12
+31
+R13
+R14
+R15
+R16
+R17
+!s100 8OMYDOGUl6]H50]iAR>QZ3
+!i10b 1
+vaddr_gen
+I6U11<c05<A2baZmNmTg^]0
+VcKU4d]jfjm`e]=B4Lg>o11
+R9
+Z18 w1668321532
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/addr_gen.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/addr_gen.v
+L0 4
+Z19 OV;L;10.1d;51
+r1
+31
+Z20 o-vlog01compat -work work -O0
+Z21 !s92 -vlog01compat -work work +incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus -O0
+!i10b 1
+!s100 5B37]DCjHlj97PnHi`lE?0
+!s85 0
+!s108 1668618304.554668
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/addr_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/addr_gen.v|
+!s101 -O0
+vchecksum
+IlmQL2[b:9]3P_miUgl[QQ3
+Vdi^<G3<mPB<2IEoLcT?LU0
+R9
+R18
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/checksum.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/checksum.v
+L0 1
+R19
+r1
+31
+R20
+R21
+!i10b 1
+!s100 3zDGNEHI2b@NGA5h_hbW20
+!s85 0
+!s108 1668618304.533303
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/checksum.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/checksum.v|
+!s101 -O0
+vdata_src1
+I=?bfl0RBK4mQZL:dS@z:N3
+V8P[l5K48=B9l^ZYB[V2j_3
+R9
+w1668343370
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/data_src1.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/data_src1.v
+L0 39
+R19
+r1
+31
+R20
+R21
+!i10b 1
+!s100 PIkmU1mNF<AaMJn1>WhDA1
+!s85 0
+!s108 1668618304.512065
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/data_src1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/data_src1.v|
+!s101 -O0
+Edataram
+Z22 w1668616195
+Z23 DPx9 altera_mf 20 altera_mf_components 0 22 zh;bE09gCIPDVLK?MN49L3
+R7
+R8
+R9
+Z24 8/home/user/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd
+Z25 F/home/user/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd
+l0
+L42
+VRzQg;gH5X<4[NPN2YOi`L2
+R12
+31
+Z26 !s108 1668618305.001979
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd|
+Z28 !s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd|
+R16
+R17
+!s100 =T9dLOG_0ADgChaKlXN;j0
+!i10b 1
+Asyn
+R23
+R7
+R8
+DEx4 work 7 dataram 0 22 RzQg;gH5X<4[NPN2YOi`L2
+l59
+L55
+V11@?M:6VEAF_MIJVGN8XY2
+R12
+31
+R26
+R27
+R28
+R16
+R17
+!s100 4YW`=e5o>4hIC@^S>YLma3
+!i10b 1
+Efifo_stream_in_1
+R1
+R3
+R7
+R8
+R9
+Z29 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd
+Z30 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd
+l0
+L47
+VzDV9B0ANJM[VOFEFnlUl21
+R12
+31
+Z31 !s108 1668618304.904978
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd|
+Z33 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd|
+R16
+R17
+!s100 C4_l7P[FT>L05GV2>LUP=0
+!i10b 1
+Artl
+R3
+R7
+R8
+DEx4 work 16 fifo_stream_in_1 0 22 zDV9B0ANJM[VOFEFnlUl21
+l79
+L74
+VlV8[@XF0GU?cZmd0_2dHi3
+R12
+31
+R31
+R32
+R33
+R16
+R17
+!s100 fj[=M[OT9lZ6m?U@XWezI0
+!i10b 1
+Efifo_stream_out_1
+R1
+R3
+R7
+R8
+R9
+Z34 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl
+Z35 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl
+l0
+L47
+VjCN<>7=]W<WQ;o[oSVYS00
+R12
+31
+Z36 !s108 1668618304.868373
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl|
+Z38 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl|
+R16
+R17
+!s100 0Ka_<G11L]?m5YXRW4P7Z1
+!i10b 1
+Artl
+R3
+R7
+R8
+DEx4 work 17 fifo_stream_out_1 0 22 jCN<>7=]W<WQ;o[oSVYS00
+l76
+L72
+V59TI:;0mQTnaH=2DTUimS0
+R12
+31
+R36
+R37
+R38
+R16
+R17
+!s100 H[a[9`4lL;:lllHiDKo9e3
+!i10b 1
+vfiforeader
+I:5b7HJP2fiRKU[M31eY5;2
+Vh1SX3QoA_igHRMA5=3WH61
+R9
+R18
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/fiforeader.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/fiforeader.v
+L0 1
+R19
+r1
+31
+R20
+R21
+!i10b 1
+!s100 R3K9BnD]89Xc7Wga@9o[k3
+!s85 0
+!s108 1668618304.491798
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/fiforeader.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/fiforeader.v|
+!s101 -O0
+Efu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1
+R1
+R3
+R7
+R8
+R9
+R10
+R11
+l0
+L219
+VAnP;U[^F]<H3PNJ1ae7WX3
+R12
+31
+R13
+R14
+R15
+R16
+R17
+!s100 2Aij2VAzE;4fJDL0R_VPO3
+!i10b 1
+Artl
+R3
+R7
+R8
+DEx4 work 64 fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1 0 22 AnP;U[^F]<H3PNJ1ae7WX3
+l258
+L238
+VlCnzI:hLD28W64S6e5jXo3
+R12
+31
+R13
+R14
+R15
+R16
+R17
+!s100 8]mn<_9gSe5Ne::iI`;;M0
+!i10b 1
+Efu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_2
+R1
+R3
+R7
+R8
+R9
+R10
+R11
+l0
+L315
+V]POKWO7kk`L=e3ihjIKa=3
+R12
+31
+R13
+R14
+R15
+R16
+R17
+!s100 [2X2lE3SHRhFASWbnH@>Z0
+!i10b 1
+Artl
+R3
+R7
+R8
+DEx4 work 64 fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_2 0 22 ]POKWO7kk`L=e3ihjIKa=3
+l357
+L334
+VCDFH3Z;MCdzoCM5FMmf[L0
+R12
+31
+R13
+R14
+R15
+R16
+R17
+!s100 ;M]oG3U[T_>U@H7R59Z0h2
+!i10b 1
+Efu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3
+R1
+Z39 DPx4 work 41 ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_opcodes 0 22 GPfOQDWR1j9D9zNbb[3>j2
+R6
+R7
+R8
+R9
+Z40 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl
+Z41 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl
+l0
+L68
+V=^iD<AgR0blOVUC=jnM8B2
+R12
+31
+Z42 !s108 1668618304.822117
+Z43 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl|
+Z44 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl|
+R16
+R17
+!s100 RH9VgzXO?LkO?<fGKQUeO2
+!i10b 1
+Artl
+R39
+R6
+R7
+R8
+DEx4 work 45 fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3 0 22 =^iD<AgR0blOVUC=jnM8B2
+l136
+L97
+V4J4:`:IlVeZF9fM7b7EAm3
+R12
+31
+R42
+R43
+R44
+R16
+R17
+!s100 hM_^?h^2A0WVJ^clAm_J>2
+!i10b 1
+Efu_mac32
+R1
+Z45 DPx4 work 21 mac32_set_acc_opcodes 0 22 =FNm?km>BniWS<kZ?^e9L2
+R3
+R7
+R8
+R9
+Z46 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl
+Z47 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl
+l0
+L18
+V1@TF45S4=mZ`AOF4c1UDP1
+R12
+31
+Z48 !s108 1668618304.779090
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl|
+Z50 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl|
+R16
+R17
+!s100 1HejC7_:gGhQ1R_mZEjoo2
+!i10b 1
+Artl
+R45
+R3
+R7
+R8
+DEx4 work 8 fu_mac32 0 22 1@TF45S4=mZ`AOF4c1UDP1
+l41
+L37
+V:bh^NS07DHQO7;N6j>cLS1
+R12
+31
+R48
+R49
+R50
+R16
+R17
+!s100 M]X:KRJ1Wcl9Y9YT_53@P2
+!i10b 1
+Einstrom
+Z51 w1668616292
+R23
+R7
+R8
+R9
+Z52 8/home/user/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd
+Z53 F/home/user/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd
+l0
+L42
+VHPMTikV6eR^YK?o9C2fHM0
+R12
+31
+Z54 !s108 1668618305.062412
+Z55 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd|
+Z56 !s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd|
+R16
+R17
+!s100 IiLcCYeC;Ca`0bDS<2TcR1
+!i10b 1
+Asyn
+R23
+R7
+R8
+DEx4 work 7 instrom 0 22 HPMTikV6eR^YK?o9C2fHM0
+l56
+L52
+VC1^kd1DJH3gOSTU;l7UkU1
+R12
+31
+R54
+R55
+R56
+R16
+R17
+!s100 R5;Afo_ASmEKfD^MDW;382
+!i10b 1
+Pldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_opcodes
+R1
+R9
+R40
+R41
+l0
+L49
+VGPfOQDWR1j9D9zNbb[3>j2
+R12
+31
+R42
+R43
+R44
+R16
+R17
+!s100 HzD[3<4nAW[`nRmR=znd90
+!i10b 1
+Pmac32_set_acc_opcodes
+R7
+R8
+R1
+R9
+R46
+R47
+l0
+L4
+V=FNm?km>BniWS<kZ?^e9L2
+R12
+31
+R48
+R49
+R50
+R16
+R17
+!s100 hFlCSFKCMmXKz29feMfl13
+!i10b 1
+Popcodes_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor
+R7
+R8
+R1
+R9
+R10
+R11
+l0
+L58
+Vze8VLOa0gS69J816?=;ZN1
+R12
+31
+R13
+R14
+R15
+R16
+R17
+!s100 I:jdm^K?oH`?kd>^KeADK3
+!i10b 1
+vpc_init
+I`FDTZ:o@`=6^;A2eKJn990
+V72zR]DjQdbj;BQNnEAIRJ3
+R9
+R18
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/pc_init.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/pc_init.v
+L0 1
+R19
+r1
+31
+R20
+R21
+!i10b 1
+!s100 PJkRPi:UIU:_z7ch]d>:F3
+!s85 0
+!s108 1668618304.469608
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/pc_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/pc_init.v|
+!s101 -O0
+Erf_1wr_1rd_always_1_guarded_0
+Z57 w1668615079
+R2
+R6
+R7
+R8
+R9
+Z58 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd
+Z59 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd
+l0
+L46
+V9>oVV:Ri=cSJ7WMY]6j;@2
+R12
+31
+Z60 !s108 1668618305.156946
+Z61 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd|
+Z62 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd|
+R16
+R17
+!s100 P8[]R?[8:1UXOcRQg?]nP2
+!i10b 1
+Artl
+R2
+DEx4 work 29 rf_1wr_1rd_always_1_guarded_0 0 22 9>oVV:Ri=cSJ7WMY]6j;@2
+R6
+R7
+R8
+l95
+L87
+V^0jcVOIc1[Y4]KX]:<Xj42
+R12
+31
+R60
+R61
+R62
+R16
+R17
+!s100 GKW@Ok_^_TUSVEI87=hYG1
+!i10b 1
+Pshl_shr_shru_pkg
+R5
+R2
+R3
+R7
+R8
+R1
+R9
+R10
+R11
+l0
+L80
+VgDeJjCUZ9?kEPlf?;I65j3
+R12
+31
+b1
+R13
+R14
+R15
+R16
+R17
+!s100 <YRZUi^;4_Sj9;>4QO8Rn0
+!i10b 1
+Bbody
+R4
+R5
+R2
+R3
+R7
+R8
+l0
+L87
+V@68n]NA31OXdLZ:;n;cJK2
+R12
+31
+R13
+R14
+R15
+R16
+R17
+nbody
+!s100 4<XfoKB_oBdJSkR[B^BMi2
+!i10b 1
+vstart_trigger
+Ik;hKV2gKdNjQC3X7oS8QM1
+VGB;W;E?T9oLZ[G:DgA;SD2
+R9
+R18
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/start_trigger.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/start_trigger.v
+L0 1
+R19
+r1
+31
+R20
+R21
+!i10b 1
+!s100 GL2<6=30lYjC5eBU7k;=^2
+!s85 0
+!s108 1668618304.451568
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/start_trigger.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/start_trigger.v|
+!s101 -O0
+Ptce_util
+R7
+R8
+R57
+R9
+Z63 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl
+Z64 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl
+l0
+L26
+V=XHPRZelRI@4^Uz9>5i_40
+R12
+31
+b1
+Z65 !s108 1668618304.746543
+Z66 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl|
+Z67 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl|
+R16
+R17
+!s100 @hDWm8UdaA=3U]_=ck9Xa3
+!i10b 1
+Bbody
+Z68 DPx4 work 8 tce_util 0 22 =XHPRZelRI@4^Uz9>5i_40
+R7
+R8
+l0
+L49
+VLF@M=AgdA_?j::U^]CiRH2
+R12
+31
+R65
+R66
+R67
+R16
+R17
+nbody
+!s100 Y>4F=l@Y0fOMFB36Kdc[l1
+!i10b 1
+Etce_util_inverter
+R57
+R7
+R8
+R9
+R63
+R64
+l0
+L180
+Vi;j^K<[IJ441hP^fVHK872
+R12
+31
+R65
+R66
+R67
+R16
+R17
+!s100 >470;]M_AWAZBblI;XK[j2
+!i10b 1
+Artl
+R7
+R8
+DEx4 work 17 tce_util_inverter 0 22 i;j^K<[IJ441hP^fVHK872
+l187
+L186
+VF[:UVbzF:i7hK:@Qh6kd=3
+R12
+31
+R65
+R66
+R67
+R16
+R17
+!s100 ?zBVmdDeJl5k;BWHhnzFV1
+!i10b 1
+Etiny_fifo
+R18
+R7
+R8
+R9
+Z69 8/home/user/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd
+Z70 F/home/user/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd
+l0
+L42
+V>OWQCP8;125QbOoHMDQXE3
+R12
+31
+Z71 !s108 1668618304.606787
+Z72 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd|
+Z73 !s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd|
+R16
+R17
+!s100 4a?96aKRoF<PS_RA74K_h1
+!i10b 1
+Asyn
+R7
+R8
+DEx4 work 9 tiny_fifo 0 22 >OWQCP8;125QbOoHMDQXE3
+l94
+L58
+V[Z[13L6YaKkLBBBSB7=CX0
+R12
+31
+R71
+R72
+R73
+R16
+R17
+!s100 lhSV7?f_g3Onn=aE`f9dl2
+!i10b 1
+Etoplevel
+R1
+Z74 DPx4 work 15 toplevel_params 0 22 Kni[hf^MmPBPX5SB[Lb[00
+Z75 DPx4 work 17 toplevel_imem_mau 0 22 e]HT=6_[Do>ZIRo8[QMkm0
+Z76 DPx4 work 16 toplevel_globals 0 22 mXbkIddD?Yc4<m5>S54?92
+R68
+R6
+R7
+R8
+R9
+Z77 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl
+Z78 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl
+l0
+L9
+VX5BOFgQnm^2hDncIki]Zd0
+R12
+31
+Z79 !s108 1668618305.106233
+Z80 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl|
+Z81 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl|
+R16
+R17
+!s100 Pi^^D1NaAOZ79BeVOUS@41
+!i10b 1
+Astructural
+R74
+R75
+R76
+R68
+R6
+R7
+R8
+DEx4 work 8 toplevel 0 22 X5BOFgQnm^2hDncIki]Zd0
+l453
+L34
+VnN05]ilOIAaK?aMGdk`5X0
+R12
+31
+R79
+R80
+R81
+R16
+R17
+!s100 5PcUkYKz]ZXnCLRaYkYi21
+!i10b 1
+Etoplevel_decoder
+R1
+Z82 DPx4 work 20 toplevel_gcu_opcodes 0 22 l_JW7>EiQo=kj<Q2;SYhD0
+R76
+R6
+R7
+R8
+R9
+Z83 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl
+Z84 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl
+l0
+L7
+Vnn_7P@6?QDYDz<3Qf394z0
+!s100 aVnFeF>BM<@SmQDeIXP=P3
+R12
+31
+!i10b 1
+Z85 !s108 1668618305.447317
+Z86 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl|
+Z87 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl|
+R16
+R17
+Artl_andor
+R82
+R76
+R6
+R7
+R8
+DEx4 work 16 toplevel_decoder 0 22 nn_7P@6?QDYDz<3Qf394z0
+l142
+L70
+V6><Oc<zInZzKRjISIbfHg0
+!s100 obLCURGFOgHR1jF@_:S<`0
+R12
+31
+!i10b 1
+R85
+R86
+R87
+R16
+R17
+Etoplevel_decompressor
+R57
+R75
+R76
+R6
+R7
+R8
+R9
+Z88 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl
+Z89 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl
+l0
+L28
+VT2D1=gi170hk<0ag14QPJ1
+R12
+31
+Z90 !s108 1668618305.372409
+Z91 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl|
+Z92 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl|
+R16
+R17
+!s100 Uk^`PdBa<:M1io<NU^JIc3
+!i10b 1
+Astructural
+R75
+R76
+R6
+R7
+R8
+DEx4 work 21 toplevel_decompressor 0 22 T2D1=gi170hk<0ag14QPJ1
+l44
+L42
+ViY>?l6FNSRNZPRhSZVLWf1
+R12
+31
+R90
+R91
+R92
+R16
+R17
+!s100 @Di2]EkHMAES04baCdek92
+!i10b 1
+Ptoplevel_gcu_opcodes
+R7
+R8
+R57
+R9
+8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl
+F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl
+l0
+L29
+Vl_JW7>EiQo=kj<Q2;SYhD0
+R12
+31
+R16
+R17
+!s100 ijl9IAgSP4bHHmM>1kPEh3
+!i10b 1
+!s108 1668618304.976089
+!s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl|
+!s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl|
+Ptoplevel_globals
+R57
+R9
+8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl
+F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl
+l0
+L1
+VmXbkIddD?Yc4<m5>S54?92
+R12
+31
+R16
+R17
+!s100 9>P[oRI=lbkLhcLj12FKC0
+!i10b 1
+!s108 1668618304.726912
+!s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl|
+!s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl|
+Etoplevel_ifetch
+R57
+R75
+R82
+R76
+R6
+R7
+R8
+R9
+Z93 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl
+Z94 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl
+l0
+L30
+VNcKRXLID]lO4gnV5VYGF53
+R12
+31
+Z95 !s108 1668618305.329095
+Z96 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl|
+Z97 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl|
+R16
+R17
+!s100 Q?OKAJ]g]<jiMo4fbh0W?2
+!i10b 1
+Artl_andor
+R75
+R82
+R76
+R6
+R7
+R8
+DEx4 work 15 toplevel_ifetch 0 22 NcKRXLID]lO4gnV5VYGF53
+l80
+L62
+VXOClg^QbdI?NiL>M=Q0[V0
+R12
+31
+R95
+R96
+R97
+R16
+R17
+!s100 cZ[@6I9lIejAPLWi0CFQR1
+!i10b 1
+Ptoplevel_imem_mau
+w1668615157
+R9
+8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl
+F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl
+l0
+L1
+Ve]HT=6_[Do>ZIRo8[QMkm0
+R12
+31
+R16
+R17
+!s100 g;fJ::Y2lF;^cGo0iYBm:2
+!i10b 1
+!s108 1668618304.706449
+!s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl|
+!s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl|
+Etoplevel_input_socket_cons_2
+R1
+R6
+R7
+R8
+R9
+Z98 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl
+Z99 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl
+l0
+L5
+VV9>>J0EHPcWJLol`DZia_1
+R12
+31
+Z100 !s108 1668618304.940956
+Z101 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl|
+Z102 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl|
+R16
+R17
+!s100 0mLmbmje3`[_XUazMK]SP0
+!i10b 1
+Ainput_socket
+R6
+R7
+R8
+DEx4 work 28 toplevel_input_socket_cons_2 0 22 V9>>J0EHPcWJLol`DZia_1
+l20
+L19
+Vz^C?1NAY?Q4PkOX:_V]?l1
+R12
+31
+R100
+R101
+R102
+R16
+R17
+!s100 0aGgm;fJi[YfBA2J`i[4K1
+!i10b 1
+Etoplevel_interconn
+R1
+R76
+R6
+R7
+R8
+R9
+Z103 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl
+Z104 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl
+l0
+L7
+V@_V8;:02JU:me69KAl11A1
+R12
+31
+Z105 !s108 1668618305.409035
+Z106 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl|
+Z107 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl|
+R16
+R17
+!s100 Dejbo86d`zR_VH?ZC3in:2
+!i10b 1
+Acomb_andor
+R76
+R6
+R7
+R8
+DEx4 work 18 toplevel_interconn 0 22 @_V8;:02JU:me69KAl11A1
+l119
+L59
+V^IY:]UXJ:jALWn8[dkYf92
+R12
+31
+R105
+R106
+R107
+R16
+R17
+!s100 jllj]l;[5f4;?obbn9?_e2
+!i10b 1
+Etoplevel_output_socket_cons_1_1
+R1
+R68
+R6
+R7
+R8
+R9
+Z108 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl
+Z109 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl
+l0
+L6
+Vc>0AUk5XCYNBz[OfHS`OK1
+R12
+31
+Z110 !s108 1668618305.290104
+Z111 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl|
+Z112 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl|
+R16
+R17
+!s100 ib:;l<C`50bclJoT[4;V83
+!i10b 1
+Aoutput_socket_andor
+R68
+R6
+R7
+R8
+DEx4 work 31 toplevel_output_socket_cons_1_1 0 22 c>0AUk5XCYNBz[OfHS`OK1
+l22
+L17
+VeMQILKigBJX<]M9NcVIoS2
+R12
+31
+R110
+R111
+R112
+R16
+R17
+!s100 A0z:iDBNSec?QFOPVXV;]0
+!i10b 1
+Etoplevel_output_socket_cons_2_1
+R1
+R68
+R6
+R7
+R8
+R9
+Z113 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl
+Z114 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl
+l0
+L6
+V6g86chG4aC9f`XN;f]Fj:2
+R12
+31
+Z115 !s108 1668618305.252342
+Z116 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl|
+Z117 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl|
+R16
+R17
+!s100 :c_5UWKgEKSeDjOWEJoX51
+!i10b 1
+Aoutput_socket_andor
+R68
+R6
+R7
+R8
+DEx4 work 31 toplevel_output_socket_cons_2_1 0 22 6g86chG4aC9f`XN;f]Fj:2
+l25
+L19
+VMB9?J6@eB3cGS26E0m:eg3
+R12
+31
+R115
+R116
+R117
+R16
+R17
+!s100 O]OULFMZTdXBD?O12dYh;3
+!i10b 1
+Ptoplevel_params
+R1
+R9
+8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl
+F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl
+l0
+L1
+VKni[hf^MmPBPX5SB[Lb[00
+R12
+31
+R16
+R17
+!s100 Wze:@jZ[3fRQDAAiTfn;d2
+!i10b 1
+!s108 1668618304.685153
+!s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl|
+!s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl|
+vusedw_to_status
+INDAc`BSn`_KU;8<[N4m6o1
+VnGaz7Mldo9N<c0Fo=H[@32
+R9
+R18
+8/home/user/04-fir-tta-with-mac-vhdl/quartus/usedw_to_status.v
+F/home/user/04-fir-tta-with-mac-vhdl/quartus/usedw_to_status.v
+L0 1
+R19
+r1
+31
+R20
+R21
+!i10b 1
+!s100 m78j<XE>n0CWedeQP@nbL1
+!s85 0
+!s108 1668618304.417550
+!s107 /home/user/04-fir-tta-with-mac-vhdl/quartus/usedw_to_status.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/user/04-fir-tta-with-mac-vhdl/quartus|/home/user/04-fir-tta-with-mac-vhdl/quartus/usedw_to_status.v|
+!s101 -O0
+Putil
+R7
+R8
+R1
+R9
+Z118 8/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl
+Z119 F/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl
+l0
+L27
+VO?3n9@YdB8W=MlKLDf_8J3
+R12
+31
+b1
+Z120 !s108 1668618304.655433
+Z121 !s90 -reportprogress|300|-93|-work|work|/home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl|
+Z122 !s107 /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl|
+R16
+R17
+!s100 =0Z3U=MLg<M3lTQW73eBN3
+!i10b 1
+Bbody
+R2
+R7
+R8
+l0
+L46
+Ven_;QNIS6JMdmi?zZ3^o32
+R12
+31
+R120
+R121
+R122
+R16
+R17
+nbody
+!s100 hdQhmTba>Re?T_9kWD^=I3
+!i10b 1
+Eutil_inverter
+R1
+R7
+R8
+R9
+R118
+R119
+l0
+L160
+V;FE0[6i?iNR?jK3CF1g?M3
+R12
+31
+R120
+R121
+R122
+R16
+R17
+!s100 9g2nFQ88<>2Hahi]TzE>]0
+!i10b 1
+Artl
+R7
+R8
+DEx4 work 13 util_inverter 0 22 ;FE0[6i?iNR?jK3CF1g?M3
+l167
+L166
+VUYZj9o7>bRL1ZR=UMN_Oc0
+R12
+31
+R120
+R121
+R122
+R16
+R17
+!s100 8h1JzbZci59Tjc6cW@[0a0
+!i10b 1

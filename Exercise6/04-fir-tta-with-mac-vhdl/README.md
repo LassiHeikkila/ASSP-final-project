@@ -23,3 +23,11 @@ The final board design looks like this:
 
 Analysis and synthesis was successful:
 ![](../screenshots/quartus-successful-analysis-and-synthesis.PNG)
+
+A Cyclone III FPGA board was flashed with the design:
+![](../screenshots/fpga-programming-success.PNG)
+
+The FPGA output was captured with SignalTap II Logic Analyzer:
+![](../screenshots/fpga-signal-capture.PNG)
+
+The checksum output `2469153` differs quite significantly from the expected `2085077`.

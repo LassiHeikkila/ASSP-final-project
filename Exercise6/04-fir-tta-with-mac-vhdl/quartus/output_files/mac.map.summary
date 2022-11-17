@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Wed Nov 16 19:16:43 2022
-Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Analysis & Synthesis Status : Successful - Thu Nov 17 09:23:36 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : mac
 Top-level Entity Name : mac
 Family : Cyclone III
-Total logic elements : 3,819
-    Total combinational functions : 2,580
-    Dedicated logic registers : 2,118
-Total registers : 2118
+Total logic elements : 3,734
+    Total combinational functions : 2,497
+    Dedicated logic registers : 2,053
+Total registers : 2053
 Total pins : 6
 Total virtual pins : 0
 Total memory bits : 173,632

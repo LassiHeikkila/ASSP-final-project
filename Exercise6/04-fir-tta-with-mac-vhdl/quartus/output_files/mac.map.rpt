@@ -1,6 +1,6 @@
 Analysis & Synthesis report for mac
-Wed Nov 16 19:16:44 2022
-Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+Thu Nov 17 09:23:36 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -9,72 +9,73 @@ Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
   1. Legal Notice
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
-  4. Analysis & Synthesis Source Files Read
-  5. Analysis & Synthesis Resource Usage Summary
-  6. Analysis & Synthesis Resource Utilization by Entity
-  7. Analysis & Synthesis RAM Summary
-  8. Analysis & Synthesis DSP Block Usage Summary
-  9. Analysis & Synthesis IP Cores Summary
- 10. State Machine - |mac|stream_source_1:stream_source_1|addr_gen:inst5|statusreg
- 11. Registers Removed During Synthesis
- 12. General Register Statistics
- 13. Inverted Register Statistics
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for stream_source_1:stream_source_1|tiny_fifo:inst1|scfifo:scfifo_component|scfifo_6i61:auto_generated|a_dpfifo_i431:dpfifo|altsyncram_ad81:FIFOram
- 16. Source assignments for stream_source_1:stream_source_1|data_src1:inst|altsyncram:altsyncram_component|altsyncram_72b1:auto_generated
- 17. Source assignments for dataram:dataram|altsyncram:altsyncram_component|altsyncram_ivt3:auto_generated
- 18. Source assignments for instrom:instrom|altsyncram:altsyncram_component|altsyncram_6is3:auto_generated
- 19. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU
- 20. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU
- 21. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch
- 22. Parameter Settings for User Entity Instance: toplevel:toplevel|fifo_stream_in_1:fu_INPUT
- 23. Parameter Settings for User Entity Instance: toplevel:toplevel|fifo_stream_out_1:fu_OUTPUT
- 24. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_mac32:fu_MAC
- 25. Parameter Settings for User Entity Instance: toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_RF
- 26. Parameter Settings for User Entity Instance: toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_BOOL
- 27. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:lsu_i1
- 28. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:lsu_o1
- 29. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:lsu_i2
- 30. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:RF_i1
- 31. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:RF_o1
- 32. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:bool_i1
- 33. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:bool_o1
- 34. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:gcu_i1
- 35. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:gcu_i2
- 36. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:gcu_o1
- 37. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:ALU_i1
- 38. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:ALU_i2
- 39. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:ALU_o1
- 40. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:MAC_i1
- 41. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:MAC_i2
- 42. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:MAC_o1
- 43. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:INPUT_i1
- 44. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:INPUT_o1
- 45. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:INPUT_o2
- 46. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:OUTPUT_i1
- 47. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:OUTPUT_o1
- 48. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_1_1:simm_socket_B1
- 49. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_1_1:simm_socket_B1_1
- 50. Parameter Settings for User Entity Instance: stream_source_1:stream_source_1|tiny_fifo:inst1|scfifo:scfifo_component
- 51. Parameter Settings for User Entity Instance: stream_source_1:stream_source_1|data_src1:inst|altsyncram:altsyncram_component
- 52. Parameter Settings for User Entity Instance: stream_source_1:stream_source_1|addr_gen:inst5
- 53. Parameter Settings for User Entity Instance: dataram:dataram|altsyncram:altsyncram_component
- 54. Parameter Settings for User Entity Instance: checksum:inst
- 55. Parameter Settings for User Entity Instance: instrom:instrom|altsyncram:altsyncram_component
- 56. Parameter Settings for User Entity Instance: pc_init:pc_init
- 57. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 58. Parameter Settings for Inferred Entity Instance: toplevel:toplevel|fu_mac32:fu_MAC|lpm_mult:Mult0
- 59. scfifo Parameter Settings by Entity Instance
- 60. altsyncram Parameter Settings by Entity Instance
- 61. lpm_mult Parameter Settings by Entity Instance
- 62. Port Connectivity Checks: "toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_RF"
- 63. Port Connectivity Checks: "toplevel:toplevel|fifo_stream_out_1:fu_OUTPUT"
- 64. Port Connectivity Checks: "toplevel:toplevel|fifo_stream_in_1:fu_INPUT"
- 65. SignalTap II Logic Analyzer Settings
- 66. Elapsed Time Per Partition
- 67. Connections to In-System Debugging Instance "auto_signaltap_0"
- 68. Analysis & Synthesis Messages
- 69. Analysis & Synthesis Suppressed Messages
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. Analysis & Synthesis IP Cores Summary
+ 11. State Machine - |mac|stream_source_1:stream_source_1|addr_gen:inst5|statusreg
+ 12. Registers Removed During Synthesis
+ 13. General Register Statistics
+ 14. Inverted Register Statistics
+ 15. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 16. Source assignments for stream_source_1:stream_source_1|tiny_fifo:inst1|scfifo:scfifo_component|scfifo_6i61:auto_generated|a_dpfifo_i431:dpfifo|altsyncram_ad81:FIFOram
+ 17. Source assignments for stream_source_1:stream_source_1|data_src1:inst|altsyncram:altsyncram_component|altsyncram_72b1:auto_generated
+ 18. Source assignments for dataram:dataram|altsyncram:altsyncram_component|altsyncram_ivt3:auto_generated
+ 19. Source assignments for instrom:instrom|altsyncram:altsyncram_component|altsyncram_6is3:auto_generated
+ 20. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU
+ 21. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU
+ 22. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch
+ 23. Parameter Settings for User Entity Instance: toplevel:toplevel|fifo_stream_in_1:fu_INPUT
+ 24. Parameter Settings for User Entity Instance: toplevel:toplevel|fifo_stream_out_1:fu_OUTPUT
+ 25. Parameter Settings for User Entity Instance: toplevel:toplevel|fu_mac32:fu_MAC
+ 26. Parameter Settings for User Entity Instance: toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_RF
+ 27. Parameter Settings for User Entity Instance: toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_BOOL
+ 28. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:lsu_i1
+ 29. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:lsu_o1
+ 30. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:lsu_i2
+ 31. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:RF_i1
+ 32. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:RF_o1
+ 33. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:bool_i1
+ 34. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:bool_o1
+ 35. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:gcu_i1
+ 36. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:gcu_i2
+ 37. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:gcu_o1
+ 38. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:ALU_i1
+ 39. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:ALU_i2
+ 40. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:ALU_o1
+ 41. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:MAC_i1
+ 42. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:MAC_i2
+ 43. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:MAC_o1
+ 44. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:INPUT_i1
+ 45. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:INPUT_o1
+ 46. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:INPUT_o2
+ 47. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_input_socket_cons_2:OUTPUT_i1
+ 48. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_2_1:OUTPUT_o1
+ 49. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_1_1:simm_socket_B1
+ 50. Parameter Settings for User Entity Instance: toplevel:toplevel|toplevel_interconn:ic|toplevel_output_socket_cons_1_1:simm_socket_B1_1
+ 51. Parameter Settings for User Entity Instance: stream_source_1:stream_source_1|tiny_fifo:inst1|scfifo:scfifo_component
+ 52. Parameter Settings for User Entity Instance: stream_source_1:stream_source_1|data_src1:inst|altsyncram:altsyncram_component
+ 53. Parameter Settings for User Entity Instance: stream_source_1:stream_source_1|addr_gen:inst5
+ 54. Parameter Settings for User Entity Instance: dataram:dataram|altsyncram:altsyncram_component
+ 55. Parameter Settings for User Entity Instance: checksum:inst
+ 56. Parameter Settings for User Entity Instance: instrom:instrom|altsyncram:altsyncram_component
+ 57. Parameter Settings for User Entity Instance: pc_init:pc_init
+ 58. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 59. Parameter Settings for Inferred Entity Instance: toplevel:toplevel|fu_mac32:fu_MAC|lpm_mult:Mult0
+ 60. scfifo Parameter Settings by Entity Instance
+ 61. altsyncram Parameter Settings by Entity Instance
+ 62. lpm_mult Parameter Settings by Entity Instance
+ 63. Port Connectivity Checks: "toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_RF"
+ 64. Port Connectivity Checks: "toplevel:toplevel|fifo_stream_out_1:fu_OUTPUT"
+ 65. Port Connectivity Checks: "toplevel:toplevel|fifo_stream_in_1:fu_INPUT"
+ 66. SignalTap II Logic Analyzer Settings
+ 67. Elapsed Time Per Partition
+ 68. Connections to In-System Debugging Instance "auto_signaltap_0"
+ 69. Analysis & Synthesis Messages
+ 70. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -97,24 +98,24 @@ applicable agreement for further details.
 
 
 
-+----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                     ;
-+------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 16 19:16:43 2022       ;
-; Quartus II 32-bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
-; Revision Name                      ; mac                                         ;
-; Top-level Entity Name              ; mac                                         ;
-; Family                             ; Cyclone III                                 ;
-; Total logic elements               ; 3,819                                       ;
-;     Total combinational functions  ; 2,580                                       ;
-;     Dedicated logic registers      ; 2,118                                       ;
-; Total registers                    ; 2118                                        ;
-; Total pins                         ; 6                                           ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 173,632                                     ;
-; Embedded Multiplier 9-bit elements ; 6                                           ;
-; Total PLLs                         ; 0                                           ;
-+------------------------------------+---------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Nov 17 09:23:36 2022           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; mac                                             ;
+; Top-level Entity Name              ; mac                                             ;
+; Family                             ; Cyclone III                                     ;
+; Total logic elements               ; 3,734                                           ;
+;     Total combinational functions  ; 2,497                                           ;
+;     Dedicated logic registers      ; 2,053                                           ;
+; Total registers                    ; 2053                                            ;
+; Total pins                         ; 6                                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 173,632                                         ;
+; Embedded Multiplier 9-bit elements ; 6                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------+
@@ -204,115 +205,133 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                          ;
-+-----------------------------------------------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                            ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                                 ; Library ;
-+-----------------------------------------------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
-; usedw_to_status.v                                                           ; yes             ; User Verilog HDL File                  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/usedw_to_status.v                                                ;         ;
-; tiny_fifo.vhd                                                               ; yes             ; User Wizard-Generated File             ; /home/user/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd                                                    ;         ;
-; stream_source_1.bdf                                                         ; yes             ; User Block Diagram/Schematic File      ; /home/user/04-fir-tta-with-mac-vhdl/quartus/stream_source_1.bdf                                              ;         ;
-; start_trigger.v                                                             ; yes             ; User Verilog HDL File                  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/start_trigger.v                                                  ;         ;
-; pc_init.v                                                                   ; yes             ; User Verilog HDL File                  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/pc_init.v                                                        ;         ;
-; fiforeader.v                                                                ; yes             ; User Verilog HDL File                  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/fiforeader.v                                                     ;         ;
-; data_src1.v                                                                 ; yes             ; User Wizard-Generated File             ; /home/user/04-fir-tta-with-mac-vhdl/quartus/data_src1.v                                                      ;         ;
-; checksum.v                                                                  ; yes             ; User Verilog HDL File                  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/checksum.v                                                       ;         ;
-; addr_gen.v                                                                  ; yes             ; User Verilog HDL File                  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/addr_gen.v                                                       ;         ;
-; ../hdl_files/vhdl/util_pkg.vhdl                                             ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl                                             ;         ;
-; ../hdl_files/vhdl/toplevel_params_pkg.vhdl                                  ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl                                  ;         ;
-; ../hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl                                ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl                                ;         ;
-; ../hdl_files/vhdl/toplevel_globals_pkg.vhdl                                 ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl                                 ;         ;
-; ../hdl_files/vhdl/toplevel.vhdl                                             ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl                                             ;         ;
-; ../hdl_files/vhdl/tce_util_pkg.vhdl                                         ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl                                         ;         ;
-; ../hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd                         ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd                         ;         ;
-; ../hdl_files/vhdl/mac.vhdl                                                  ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl                                                  ;         ;
-; ../hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl                    ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl                    ;         ;
-; ../hdl_files/vhdl/fifo_stream_out_1.vhdl                                    ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl                                    ;         ;
-; ../hdl_files/vhdl/fifo_stream_in_1.vhd                                      ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd                                      ;         ;
-; ../hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl ;         ;
-; ../hdl_files/gcu_ic/output_socket_2_1.vhdl                                  ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl                                  ;         ;
-; ../hdl_files/gcu_ic/output_socket_1_1.vhdl                                  ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl                                  ;         ;
-; ../hdl_files/gcu_ic/input_socket_2.vhdl                                     ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl                                     ;         ;
-; ../hdl_files/gcu_ic/ifetch.vhdl                                             ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl                                             ;         ;
-; ../hdl_files/gcu_ic/idecompressor.vhdl                                      ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl                                      ;         ;
-; ../hdl_files/gcu_ic/ic.vhdl                                                 ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl                                                 ;         ;
-; ../hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl                                    ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl                                    ;         ;
-; ../hdl_files/gcu_ic/decoder.vhdl                                            ; yes             ; User VHDL File                         ; /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl                                            ;         ;
-; mac.bdf                                                                     ; yes             ; User Block Diagram/Schematic File      ; /home/user/04-fir-tta-with-mac-vhdl/quartus/mac.bdf                                                          ;         ;
-; dataram.vhd                                                                 ; yes             ; User Wizard-Generated File             ; /home/user/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd                                                      ;         ;
-; instrom.vhd                                                                 ; yes             ; User Wizard-Generated File             ; /home/user/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd                                                      ;         ;
-; scfifo.tdf                                                                  ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/scfifo.tdf                                            ;         ;
-; a_regfifo.inc                                                               ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_regfifo.inc                                         ;         ;
-; a_dpfifo.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_dpfifo.inc                                          ;         ;
-; a_i2fifo.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_i2fifo.inc                                          ;         ;
-; a_fffifo.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_fffifo.inc                                          ;         ;
-; a_f2fifo.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_f2fifo.inc                                          ;         ;
-; aglobal131.inc                                                              ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                                        ;         ;
-; db/scfifo_6i61.tdf                                                          ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/scfifo_6i61.tdf                                               ;         ;
-; db/a_dpfifo_i431.tdf                                                        ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/a_dpfifo_i431.tdf                                             ;         ;
-; db/altsyncram_ad81.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_ad81.tdf                                           ;         ;
-; db/cmpr_br8.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_br8.tdf                                                  ;         ;
-; db/cntr_m8b.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_m8b.tdf                                                  ;         ;
-; db/cntr_397.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_397.tdf                                                  ;         ;
-; db/cntr_n8b.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_n8b.tdf                                                  ;         ;
-; altsyncram.tdf                                                              ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                                        ;         ;
-; stratix_ram_block.inc                                                       ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                 ;         ;
-; lpm_mux.inc                                                                 ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                                           ;         ;
-; lpm_decode.inc                                                              ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                                        ;         ;
-; a_rdenreg.inc                                                               ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                                         ;         ;
-; altrom.inc                                                                  ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altrom.inc                                            ;         ;
-; altram.inc                                                                  ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altram.inc                                            ;         ;
-; altdpram.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                                          ;         ;
-; db/altsyncram_72b1.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_72b1.tdf                                           ;         ;
-; /home/user/04-fir-tta-with-mac-vhdl/tta_stream_1_in.mif                     ; yes             ; Auto-Found Memory Initialization File  ; /home/user/04-fir-tta-with-mac-vhdl/tta_stream_1_in.mif                                                      ;         ;
-; db/decode_37a.tdf                                                           ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/decode_37a.tdf                                                ;         ;
-; db/mux_qlb.tdf                                                              ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/mux_qlb.tdf                                                   ;         ;
-; db/altsyncram_ivt3.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_ivt3.tdf                                           ;         ;
-; db/altsyncram_6is3.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_6is3.tdf                                           ;         ;
-; /home/user/04-fir-tta-with-mac-vhdl/fir-with-mac.mif                        ; yes             ; Auto-Found Memory Initialization File  ; /home/user/04-fir-tta-with-mac-vhdl/fir-with-mac.mif                                                         ;         ;
-; sld_signaltap.vhd                                                           ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_signaltap.vhd                                     ;         ;
-; sld_signaltap_impl.vhd                                                      ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                                ;         ;
-; sld_ela_control.vhd                                                         ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_ela_control.vhd                                   ;         ;
-; lpm_shiftreg.tdf                                                            ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_shiftreg.tdf                                      ;         ;
-; lpm_constant.inc                                                            ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_constant.inc                                      ;         ;
-; dffeea.inc                                                                  ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/dffeea.inc                                            ;         ;
-; sld_mbpmg.vhd                                                               ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_mbpmg.vhd                                         ;         ;
-; sld_ela_trigger_flow_mgr.vhd                                                ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd                          ;         ;
-; sld_buffer_manager.vhd                                                      ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd                                ;         ;
-; db/altsyncram_nt14.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_nt14.tdf                                           ;         ;
-; altdpram.tdf                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altdpram.tdf                                          ;         ;
-; memmodes.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/others/maxplus2/memmodes.inc                                        ;         ;
-; a_hdffe.inc                                                                 ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/a_hdffe.inc                                           ;         ;
-; alt_le_rden_reg.inc                                                         ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                   ;         ;
-; altsyncram.inc                                                              ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altsyncram.inc                                        ;         ;
-; lpm_mux.tdf                                                                 ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_mux.tdf                                           ;         ;
-; muxlut.inc                                                                  ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/muxlut.inc                                            ;         ;
-; bypassff.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/bypassff.inc                                          ;         ;
-; altshift.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/altshift.inc                                          ;         ;
-; db/mux_lrc.tdf                                                              ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/mux_lrc.tdf                                                   ;         ;
-; lpm_decode.tdf                                                              ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_decode.tdf                                        ;         ;
-; declut.inc                                                                  ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/declut.inc                                            ;         ;
-; lpm_compare.inc                                                             ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_compare.inc                                       ;         ;
-; db/decode_4uf.tdf                                                           ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/decode_4uf.tdf                                                ;         ;
-; lpm_counter.tdf                                                             ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_counter.tdf                                       ;         ;
-; lpm_add_sub.inc                                                             ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                       ;         ;
-; cmpconst.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/cmpconst.inc                                          ;         ;
-; lpm_counter.inc                                                             ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_counter.inc                                       ;         ;
-; alt_counter_stratix.inc                                                     ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                               ;         ;
-; db/cntr_hfi.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_hfi.tdf                                                  ;         ;
-; db/cmpr_kfc.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_kfc.tdf                                                  ;         ;
-; db/cntr_c5j.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_c5j.tdf                                                  ;         ;
-; db/cntr_8fi.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_8fi.tdf                                                  ;         ;
-; db/cmpr_ifc.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_ifc.tdf                                                  ;         ;
-; db/cntr_p1j.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cntr_p1j.tdf                                                  ;         ;
-; db/cmpr_efc.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_efc.tdf                                                  ;         ;
-; sld_rom_sr.vhd                                                              ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                        ;         ;
-; sld_hub.vhd                                                                 ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_hub.vhd                                           ;         ;
-; sld_jtag_hub.vhd                                                            ; yes             ; Encrypted Megafunction                 ; /home/user/altera/13.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                      ;         ;
-; lpm_mult.tdf                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf                                          ;         ;
-; multcore.inc                                                                ; yes             ; Megafunction                           ; /home/user/altera/13.1/quartus/libraries/megafunctions/multcore.inc                                          ;         ;
-; db/mult_r4t.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; /home/user/04-fir-tta-with-mac-vhdl/quartus/db/mult_r4t.tdf                                                  ;         ;
-+-----------------------------------------------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ; < 0.1%      ;
+;     Processors 9-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                  ;
++-----------------------------------------------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                            ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                                                         ; Library ;
++-----------------------------------------------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+
+; usedw_to_status.v                                                           ; yes             ; User Verilog HDL File                  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/usedw_to_status.v                                                ;         ;
+; tiny_fifo.vhd                                                               ; yes             ; User Wizard-Generated File             ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd                                                    ;         ;
+; stream_source_1.bdf                                                         ; yes             ; User Block Diagram/Schematic File      ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/stream_source_1.bdf                                              ;         ;
+; start_trigger.v                                                             ; yes             ; User Verilog HDL File                  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/start_trigger.v                                                  ;         ;
+; pc_init.v                                                                   ; yes             ; User Verilog HDL File                  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/pc_init.v                                                        ;         ;
+; fiforeader.v                                                                ; yes             ; User Verilog HDL File                  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/fiforeader.v                                                     ;         ;
+; data_src1.v                                                                 ; yes             ; User Wizard-Generated File             ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/data_src1.v                                                      ;         ;
+; checksum.v                                                                  ; yes             ; User Verilog HDL File                  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/checksum.v                                                       ;         ;
+; addr_gen.v                                                                  ; yes             ; User Verilog HDL File                  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/addr_gen.v                                                       ;         ;
+; ../hdl_files/vhdl/util_pkg.vhdl                                             ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl                                             ;         ;
+; ../hdl_files/vhdl/toplevel_params_pkg.vhdl                                  ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl                                  ;         ;
+; ../hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl                                ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl                                ;         ;
+; ../hdl_files/vhdl/toplevel_globals_pkg.vhdl                                 ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl                                 ;         ;
+; ../hdl_files/vhdl/toplevel.vhdl                                             ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl                                             ;         ;
+; ../hdl_files/vhdl/tce_util_pkg.vhdl                                         ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl                                         ;         ;
+; ../hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd                         ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd                         ;         ;
+; ../hdl_files/vhdl/mac.vhdl                                                  ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl                                                  ;         ;
+; ../hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl                    ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl                    ;         ;
+; ../hdl_files/vhdl/fifo_stream_out_1.vhdl                                    ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl                                    ;         ;
+; ../hdl_files/vhdl/fifo_stream_in_1.vhd                                      ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd                                      ;         ;
+; ../hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl ;         ;
+; ../hdl_files/gcu_ic/output_socket_2_1.vhdl                                  ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl                                  ;         ;
+; ../hdl_files/gcu_ic/output_socket_1_1.vhdl                                  ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl                                  ;         ;
+; ../hdl_files/gcu_ic/input_socket_2.vhdl                                     ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl                                     ;         ;
+; ../hdl_files/gcu_ic/ifetch.vhdl                                             ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl                                             ;         ;
+; ../hdl_files/gcu_ic/idecompressor.vhdl                                      ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl                                      ;         ;
+; ../hdl_files/gcu_ic/ic.vhdl                                                 ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl                                                 ;         ;
+; ../hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl                                    ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl                                    ;         ;
+; ../hdl_files/gcu_ic/decoder.vhdl                                            ; yes             ; User VHDL File                         ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl                                            ;         ;
+; mac.bdf                                                                     ; yes             ; User Block Diagram/Schematic File      ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/mac.bdf                                                          ;         ;
+; dataram.vhd                                                                 ; yes             ; User Wizard-Generated File             ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd                                                      ;         ;
+; instrom.vhd                                                                 ; yes             ; User Wizard-Generated File             ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd                                                      ;         ;
+; scfifo.tdf                                                                  ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/scfifo.tdf                                                                         ;         ;
+; a_regfifo.inc                                                               ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_regfifo.inc                                                                      ;         ;
+; a_dpfifo.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_dpfifo.inc                                                                       ;         ;
+; a_i2fifo.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_i2fifo.inc                                                                       ;         ;
+; a_fffifo.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_fffifo.inc                                                                       ;         ;
+; a_f2fifo.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_f2fifo.inc                                                                       ;         ;
+; aglobal130.inc                                                              ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc                                                                     ;         ;
+; db/scfifo_6i61.tdf                                                          ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/scfifo_6i61.tdf                                               ;         ;
+; db/a_dpfifo_i431.tdf                                                        ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/a_dpfifo_i431.tdf                                             ;         ;
+; db/altsyncram_ad81.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_ad81.tdf                                           ;         ;
+; db/cmpr_br8.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_br8.tdf                                                  ;         ;
+; db/cntr_m8b.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_m8b.tdf                                                  ;         ;
+; db/cntr_397.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_397.tdf                                                  ;         ;
+; db/cntr_n8b.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_n8b.tdf                                                  ;         ;
+; altsyncram.tdf                                                              ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.tdf                                                                     ;         ;
+; stratix_ram_block.inc                                                       ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                              ;         ;
+; lpm_mux.inc                                                                 ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.inc                                                                        ;         ;
+; lpm_decode.inc                                                              ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.inc                                                                     ;         ;
+; a_rdenreg.inc                                                               ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                                                      ;         ;
+; altrom.inc                                                                  ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc                                                                         ;         ;
+; altram.inc                                                                  ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altram.inc                                                                         ;         ;
+; altdpram.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.inc                                                                       ;         ;
+; db/altsyncram_72b1.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_72b1.tdf                                           ;         ;
+; ../tta_stream_1_in.mif                                                      ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/tta_stream_1_in.mif                                                      ;         ;
+; db/decode_37a.tdf                                                           ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/decode_37a.tdf                                                ;         ;
+; db/mux_qlb.tdf                                                              ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/mux_qlb.tdf                                                   ;         ;
+; db/altsyncram_ivt3.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_ivt3.tdf                                           ;         ;
+; db/altsyncram_6is3.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_6is3.tdf                                           ;         ;
+; ../fir-with-mac.mif                                                         ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/fir-with-mac.mif                                                         ;         ;
+; sld_signaltap.vhd                                                           ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_signaltap.vhd                                                                  ;         ;
+; sld_signaltap_impl.vhd                                                      ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                                                             ;         ;
+; sld_ela_control.vhd                                                         ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_ela_control.vhd                                                                ;         ;
+; lpm_shiftreg.tdf                                                            ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_shiftreg.tdf                                                                   ;         ;
+; lpm_constant.inc                                                            ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.inc                                                                   ;         ;
+; dffeea.inc                                                                  ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/dffeea.inc                                                                         ;         ;
+; sld_mbpmg.vhd                                                               ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_mbpmg.vhd                                                                      ;         ;
+; sld_ela_trigger_flow_mgr.vhd                                                ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd                                                       ;         ;
+; sld_buffer_manager.vhd                                                      ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_buffer_manager.vhd                                                             ;         ;
+; db/altsyncram_nt14.tdf                                                      ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/altsyncram_nt14.tdf                                           ;         ;
+; altdpram.tdf                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altdpram.tdf                                                                       ;         ;
+; memmodes.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/others/maxplus2/memmodes.inc                                                                     ;         ;
+; a_hdffe.inc                                                                 ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/a_hdffe.inc                                                                        ;         ;
+; alt_le_rden_reg.inc                                                         ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                                                ;         ;
+; altsyncram.inc                                                              ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altsyncram.inc                                                                     ;         ;
+; lpm_mux.tdf                                                                 ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.tdf                                                                        ;         ;
+; muxlut.inc                                                                  ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/muxlut.inc                                                                         ;         ;
+; bypassff.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/bypassff.inc                                                                       ;         ;
+; altshift.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altshift.inc                                                                       ;         ;
+; db/mux_lrc.tdf                                                              ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/mux_lrc.tdf                                                   ;         ;
+; lpm_decode.tdf                                                              ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_decode.tdf                                                                     ;         ;
+; declut.inc                                                                  ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/declut.inc                                                                         ;         ;
+; lpm_compare.inc                                                             ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_compare.inc                                                                    ;         ;
+; db/decode_4uf.tdf                                                           ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/decode_4uf.tdf                                                ;         ;
+; lpm_counter.tdf                                                             ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_counter.tdf                                                                    ;         ;
+; lpm_add_sub.inc                                                             ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                                    ;         ;
+; cmpconst.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/cmpconst.inc                                                                       ;         ;
+; lpm_counter.inc                                                             ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_counter.inc                                                                    ;         ;
+; alt_counter_stratix.inc                                                     ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                                            ;         ;
+; db/cntr_hfi.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_hfi.tdf                                                  ;         ;
+; db/cmpr_kfc.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_kfc.tdf                                                  ;         ;
+; db/cntr_c5j.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_c5j.tdf                                                  ;         ;
+; db/cntr_8fi.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_8fi.tdf                                                  ;         ;
+; db/cmpr_ifc.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_ifc.tdf                                                  ;         ;
+; db/cntr_p1j.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cntr_p1j.tdf                                                  ;         ;
+; db/cmpr_efc.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/cmpr_efc.tdf                                                  ;         ;
+; sld_rom_sr.vhd                                                              ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                                                     ;         ;
+; sld_hub.vhd                                                                 ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_hub.vhd                                                                        ;         ;
+; sld_jtag_hub.vhd                                                            ; yes             ; Encrypted Megafunction                 ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                                   ;         ;
+; lpm_mult.tdf                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mult.tdf                                                                       ;         ;
+; multcore.inc                                                                ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/multcore.inc                                                                       ;         ;
+; db/mult_r4t.tdf                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/db/mult_r4t.tdf                                                  ;         ;
++-----------------------------------------------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -320,20 +339,20 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 3,819     ;
+; Estimated Total logic elements              ; 3,734     ;
 ;                                             ;           ;
-; Total combinational functions               ; 2580      ;
+; Total combinational functions               ; 2497      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 1226      ;
-;     -- 3 input functions                    ; 985       ;
-;     -- <=2 input functions                  ; 369       ;
+;     -- 4 input functions                    ; 1204      ;
+;     -- 3 input functions                    ; 976       ;
+;     -- <=2 input functions                  ; 317       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 2215      ;
-;     -- arithmetic mode                      ; 365       ;
+;     -- normal mode                          ; 2163      ;
+;     -- arithmetic mode                      ; 334       ;
 ;                                             ;           ;
-; Total registers                             ; 2118      ;
-;     -- Dedicated logic registers            ; 2118      ;
+; Total registers                             ; 2053      ;
+;     -- Dedicated logic registers            ; 2053      ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 6         ;
@@ -341,8 +360,8 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 6         ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 1751      ;
-; Total fan-out                               ; 18696     ;
-; Average fan-out                             ; 3.78      ;
+; Total fan-out                               ; 18184     ;
+; Average fan-out                             ; 3.79      ;
 +---------------------------------------------+-----------+
 
 
@@ -351,7 +370,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                              ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                       ; Library Name ;
 +---------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |mac                                                                                                    ; 2580 (1)          ; 2118 (0)     ; 173632      ; 6            ; 0       ; 3         ; 6    ; 0            ; |mac                                                                                                                                                                                                                                                                                                                                      ; work         ;
+; |mac                                                                                                    ; 2497 (1)          ; 2053 (0)     ; 173632      ; 6            ; 0       ; 3         ; 6    ; 0            ; |mac                                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;    |checksum:inst|                                                                                      ; 47 (47)           ; 41 (41)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|checksum:inst                                                                                                                                                                                                                                                                                                                        ; work         ;
 ;    |dataram:dataram|                                                                                    ; 0 (0)             ; 0 (0)        ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|dataram:dataram                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |altsyncram:altsyncram_component|                                                                 ; 0 (0)             ; 0 (0)        ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|dataram:dataram|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                      ; work         ;
@@ -359,13 +378,13 @@ applicable agreement for further details.
 ;    |instrom:instrom|                                                                                    ; 0 (0)             ; 0 (0)        ; 21504       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|instrom:instrom                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |altsyncram:altsyncram_component|                                                                 ; 0 (0)             ; 0 (0)        ; 21504       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|instrom:instrom|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                      ; work         ;
 ;          |altsyncram_6is3:auto_generated|                                                               ; 0 (0)             ; 0 (0)        ; 21504       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|instrom:instrom|altsyncram:altsyncram_component|altsyncram_6is3:auto_generated                                                                                                                                                                                                                                                       ; work         ;
-;    |sld_hub:auto_hub|                                                                                   ; 123 (1)           ; 90 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                     ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                    ; 122 (84)          ; 90 (62)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                        ; work         ;
+;    |sld_hub:auto_hub|                                                                                   ; 120 (1)           ; 86 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                     ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                    ; 119 (81)          ; 86 (58)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                        ; work         ;
 ;          |sld_rom_sr:hub_info_reg|                                                                      ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                                    ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                                                                                              ; work         ;
-;    |sld_signaltap:auto_signaltap_0|                                                                     ; 563 (1)           ; 1234 (157)   ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                                                                       ; work         ;
-;       |sld_signaltap_impl:sld_signaltap_body|                                                           ; 562 (0)           ; 1077 (0)     ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body                                                                                                                                                                                                                                                                 ; work         ;
-;          |sld_signaltap_implb:sld_signaltap_body|                                                       ; 562 (88)          ; 1077 (388)   ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body                                                                                                                                                                                                                          ; work         ;
+;    |sld_signaltap:auto_signaltap_0|                                                                     ; 483 (1)           ; 1173 (157)   ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                                                                       ; work         ;
+;       |sld_signaltap_impl:sld_signaltap_body|                                                           ; 482 (0)           ; 1016 (0)     ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body                                                                                                                                                                                                                                                                 ; work         ;
+;          |sld_signaltap_implb:sld_signaltap_body|                                                       ; 482 (20)          ; 1016 (340)   ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body                                                                                                                                                                                                                          ; work         ;
 ;             |altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|                            ; 19 (0)            ; 52 (52)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem                                                                                                                                                           ; work         ;
 ;                |lpm_decode:wdecoder|                                                                    ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder                                                                                                                                       ; work         ;
 ;                   |decode_4uf:auto_generated|                                                           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder|decode_4uf:auto_generated                                                                                                             ; work         ;
@@ -375,8 +394,7 @@ applicable agreement for further details.
 ;                |altsyncram_nt14:auto_generated|                                                         ; 0 (0)             ; 0 (0)        ; 19968       ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_nt14:auto_generated                                                                                                                                           ; work         ;
 ;             |lpm_shiftreg:segment_offset_config_deserialize|                                            ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|lpm_shiftreg:segment_offset_config_deserialize                                                                                                                                                                           ; work         ;
 ;             |lpm_shiftreg:status_register|                                                              ; 17 (17)           ; 17 (17)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|lpm_shiftreg:status_register                                                                                                                                                                                             ; work         ;
-;             |serial_crc_16:\tdo_crc_gen:tdo_crc_calc|                                                   ; 14 (14)           ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc                                                                                                                                                                                  ; work         ;
-;             |sld_buffer_manager:sld_buffer_manager_inst|                                                ; 68 (68)           ; 49 (49)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst                                                                                                                                                                               ; work         ;
+;             |sld_buffer_manager:sld_buffer_manager_inst|                                                ; 70 (70)           ; 49 (49)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst                                                                                                                                                                               ; work         ;
 ;             |sld_ela_control:ela_control|                                                               ; 188 (3)           ; 409 (2)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control                                                                                                                                                                                              ; work         ;
 ;                |lpm_shiftreg:trigger_config_deserialize|                                                ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control|lpm_shiftreg:trigger_config_deserialize                                                                                                                                                      ; work         ;
 ;                |sld_ela_basic_multi_level_trigger:\basic_multi_level_mbpm_trigger_gen:multi_level_mbpm| ; 156 (0)           ; 390 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_basic_multi_level_trigger:\basic_multi_level_mbpm_trigger_gen:multi_level_mbpm                                                                                                       ; work         ;
@@ -549,16 +567,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                            ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------+-----------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                      ; IP Include File                                           ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------+-----------------------------------------------------------+
-; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |mac|dataram:dataram                                 ; /home/user/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd   ;
-; Altera ; ROM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |mac|instrom:instrom                                 ; /home/user/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd   ;
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |mac|stream_source_1:stream_source_1|data_src1:inst  ; /home/user/04-fir-tta-with-mac-vhdl/quartus/data_src1.v   ;
-; Altera ; FIFO         ; N/A     ; N/A          ; N/A          ; |mac|stream_source_1:stream_source_1|tiny_fifo:inst1 ; /home/user/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------+-----------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                    ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------+-----------------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                      ; IP Include File                                                                   ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------+-----------------------------------------------------------------------------------+
+; Altera ; RAM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |mac|dataram:dataram                                 ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/dataram.vhd   ;
+; Altera ; ROM: 1-PORT  ; 13.1    ; N/A          ; N/A          ; |mac|instrom:instrom                                 ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/instrom.vhd   ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |mac|stream_source_1:stream_source_1|data_src1:inst  ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/data_src1.v   ;
+; Altera ; FIFO         ; N/A     ; N/A          ; N/A          ; |mac|stream_source_1:stream_source_1|tiny_fifo:inst1 ; C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/tiny_fifo.vhd ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------+-----------------------------------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -572,23 +590,41 @@ Encoding Type:  One-Hot
 +--------------------+----------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                ;
-+-------------------------------------------------------------+---------------------------------------------------------------------+
-; Register name                                               ; Reason for Removal                                                  ;
-+-------------------------------------------------------------+---------------------------------------------------------------------+
-; checksum:inst|statusreg[1..7]                               ; Stuck at GND due to stuck port data_in                              ;
-; stream_source_1:stream_source_1|fiforeader:inst3|ack_reg    ; Merged with stream_source_1:stream_source_1|fiforeader:inst3|dv_reg ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~6  ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~7  ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~8  ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~9  ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~10 ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~11 ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~12 ; Lost fanout                                                         ;
-; stream_source_1:stream_source_1|fiforeader:inst3|delay2_reg ; Merged with stream_source_1:stream_source_1|fiforeader:inst3|dv_reg ;
-; Total Number of Removed Registers = 16                      ;                                                                     ;
-+-------------------------------------------------------------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                                                                                                                                                                                                                                          ;
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Register name                                                                                                                                                                          ; Reason for Removal                                                                                                                                                                                 ;
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; checksum:inst|statusreg[1..7]                                                                                                                                                          ; Stuck at GND due to stuck port data_in                                                                                                                                                             ;
+; stream_source_1:stream_source_1|fiforeader:inst3|ack_reg                                                                                                                               ; Merged with stream_source_1:stream_source_1|fiforeader:inst3|dv_reg                                                                                                                                ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~6                                                                                                                             ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~7                                                                                                                             ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~8                                                                                                                             ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~9                                                                                                                             ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~10                                                                                                                            ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~11                                                                                                                            ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|addr_gen:inst5|statusreg~12                                                                                                                            ; Lost fanout                                                                                                                                                                                        ;
+; stream_source_1:stream_source_1|fiforeader:inst3|delay2_reg                                                                                                                            ; Merged with stream_source_1:stream_source_1|fiforeader:inst3|dv_reg                                                                                                                                ;
+; Total Number of Removed Registers = 16                                                                                                                                                 ;                                                                                                                                                                                                    ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|segment_shift_clk_ena                                                      ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_enable_delayed                                                ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[0] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[0] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[1] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[1] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[2] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[2] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[3] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[3] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[4] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[4] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[5] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[5] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[6] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[6] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[7] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[7] ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[0]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[0]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[1]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[1]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[2]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[2]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[3]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[3]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[4]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[4]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[5]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[5]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[6]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[6]                                            ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[7]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[7]                                            ;
+; Total Number of Removed Registers = 17                                                                                                                                                 ;                                                                                                                                                                                                    ;
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -596,12 +632,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2118  ;
-; Number of registers using Synchronous Clear  ; 63    ;
-; Number of registers using Synchronous Load   ; 171   ;
-; Number of registers using Asynchronous Clear ; 1218  ;
+; Total registers                              ; 2053  ;
+; Number of registers using Synchronous Clear  ; 31    ;
+; Number of registers using Synchronous Load   ; 139   ;
+; Number of registers using Asynchronous Clear ; 1214  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1275  ;
+; Number of registers using Clock Enable       ; 1210  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -632,38 +668,48 @@ Encoding Type:  One-Hot
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                                        ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|rf_RF_rd_opc_reg[0]                                                                                                ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|o1reg[7]                                                                 ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|rf_RF_wr_opc_reg[0]                                                                                                ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|fu_LSU_opc_reg[1]                                                                                                  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_ifetch:inst_fetch|pc_reg[0]                                                                                                             ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|fu_ALU_opc_reg[3]                                                                                                  ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|r1_reg[29]                                                                                  ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_ifetch:inst_fetch|return_addr_reg[2]                                                                                                    ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 0 LEs                ; 10 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|status_addr_reg[0][1]                                                                       ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |mac|stream_source_1:stream_source_1|fiforeader:inst3|q_reg[2]                                                                                                          ;
-; 7:1                ; 7 bits    ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|r1_reg[8]                                                                                   ;
-; 7:1                ; 7 bits    ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|r1_reg[0]                                                                                   ;
-; 12:1               ; 8 bits    ; 64 LEs        ; 16 LEs               ; 48 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[7]                                                                             ;
-; 12:1               ; 8 bits    ; 64 LEs        ; 24 LEs               ; 40 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[16]                                                                            ;
-; 12:1               ; 8 bits    ; 64 LEs        ; 16 LEs               ; 48 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[8]                                                                             ;
-; 12:1               ; 8 bits    ; 64 LEs        ; 24 LEs               ; 40 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[27]                                                                            ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |mac|stream_source_1:stream_source_1|addr_gen:inst5|statusreg                                                                                                           ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg                                                                                ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg                                                                                ;
-; 5:1                ; 32 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |mac|toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_RF|Mux7                                                                                                         ;
-; 20:1               ; 3 bits    ; 39 LEs        ; 24 LEs               ; 15 LEs                 ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux26 ;
-; 21:1               ; 2 bits    ; 28 LEs        ; 18 LEs               ; 10 LEs                 ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux28 ;
-; 16:1               ; 7 bits    ; 70 LEs        ; 63 LEs               ; 7 LEs                  ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux23 ;
-; 15:1               ; 7 bits    ; 70 LEs        ; 56 LEs               ; 14 LEs                 ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux14 ;
-; 16:1               ; 4 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux7  ;
-; 17:1               ; 2 bits    ; 22 LEs        ; 18 LEs               ; 4 LEs                  ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux3  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|rf_RF_rd_opc_reg[0]                                                                                                 ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|o1reg[7]                                                                  ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|rf_RF_wr_opc_reg[0]                                                                                                 ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|fu_LSU_opc_reg[1]                                                                                                   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_ifetch:inst_fetch|pc_reg[0]                                                                                                              ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_decoder:inst_decoder|fu_ALU_opc_reg[3]                                                                                                   ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|r1_reg[29]                                                                                   ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |mac|toplevel:toplevel|toplevel_ifetch:inst_fetch|return_addr_reg[2]                                                                                                     ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 0 LEs                ; 10 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|status_addr_reg[0][1]                                                                        ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |mac|stream_source_1:stream_source_1|fiforeader:inst3|q_reg[2]                                                                                                           ;
+; 7:1                ; 7 bits    ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|r1_reg[8]                                                                                    ;
+; 7:1                ; 7 bits    ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|r1_reg[0]                                                                                    ;
+; 12:1               ; 8 bits    ; 64 LEs        ; 16 LEs               ; 48 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[7]                                                                              ;
+; 12:1               ; 8 bits    ; 64 LEs        ; 24 LEs               ; 40 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[16]                                                                             ;
+; 12:1               ; 8 bits    ; 64 LEs        ; 16 LEs               ; 48 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[8]                                                                              ;
+; 12:1               ; 8 bits    ; 64 LEs        ; 24 LEs               ; 40 LEs                 ; Yes        ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg[27]                                                                             ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |mac|stream_source_1:stream_source_1|addr_gen:inst5|statusreg                                                                                                            ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg                                                                                 ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mac|toplevel:toplevel|fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3:fu_LSU|data_out_reg                                                                                 ;
+; 5:1                ; 32 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |mac|toplevel:toplevel|rf_1wr_1rd_always_1_guarded_0:rf_RF|Mux7                                                                                                          ;
+; 20:1               ; 3 bits    ; 39 LEs        ; 24 LEs               ; 15 LEs                 ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux26  ;
+; 21:1               ; 2 bits    ; 28 LEs        ; 18 LEs               ; 10 LEs                 ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux28  ;
+; 16:1               ; 7 bits    ; 70 LEs        ; 63 LEs               ; 7 LEs                  ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux23  ;
+; 15:1               ; 7 bits    ; 70 LEs        ; 56 LEs               ; 14 LEs                 ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux14  ;
+; 16:1               ; 4 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux7   ;
+; 17:1               ; 2 bits    ; 22 LEs        ; 18 LEs               ; 4 LEs                  ; No         ; |mac|toplevel:toplevel|fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1:fu_ALU|add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith:fu_arch|Mux3   ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|counter[7]   ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_rom_sr:crc_rom_sr|word_counter[0]                   ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_rom_sr:crc_rom_sr|WORD_SR[0]                        ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |mac|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|offset_count ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|hub_minor_ver_reg[0]                                                                                  ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|mixer_addr_reg[4]                                                                                     ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|word_counter[0]                                                               ;
+; 6:1                ; 7 bits    ; 28 LEs        ; 7 LEs                ; 21 LEs                 ; Yes        ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[2]                                                                                           ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 56 LEs               ; 32 LEs                 ; Yes        ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[3]                                                                                    ;
+; 20:1               ; 4 bits    ; 52 LEs        ; 36 LEs               ; 16 LEs                 ; Yes        ; |mac|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1324,7 +1370,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; SLD_INCREMENTAL_ROUTING                         ; 0                                                                                                                                                                                                                                                                ; Signed Integer ;
 ; sld_sample_depth                                ; 256                                                                                                                                                                                                                                                              ; Untyped        ;
 ; sld_segment_size                                ; 256                                                                                                                                                                                                                                                              ; Untyped        ;
-; sld_ram_block_type                              ; AUTO                                                                                                                                                                                                                                                             ; Untyped        ;
+; SLD_RAM_BLOCK_TYPE                              ; AUTO                                                                                                                                                                                                                                                             ; String         ;
 ; sld_state_bits                                  ; 11                                                                                                                                                                                                                                                               ; Untyped        ;
 ; sld_buffer_full_stop                            ; 1                                                                                                                                                                                                                                                                ; Untyped        ;
 ; SLD_MEM_ADDRESS_BITS                            ; 7                                                                                                                                                                                                                                                                ; Signed Integer ;
@@ -1516,13 +1562,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
 
 
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:12     ;
-+----------------+--------------+
++-----------------------------------------------+
+; Elapsed Time Per Partition                    ;
++--------------------------------+--------------+
+; Partition Name                 ; Elapsed Time ;
++--------------------------------+--------------+
+; Top                            ; 00:00:04     ;
+; sld_signaltap:auto_signaltap_0 ; 00:00:01     ;
+; sld_hub:auto_hub               ; 00:00:00     ;
++--------------------------------+--------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1695,11 +1743,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Analysis & Synthesis
-    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
-    Info: Processing started: Wed Nov 16 19:16:10 2022
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Nov 17 09:23:22 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mac -c mac
-Info (20029): Only one processor detected - disabling parallel compilation
+Info (11104): Parallel Compilation has detected 16 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 8 of the 8 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file usedw_to_status.v
     Info (12023): Found entity 1: usedw_to_status
 Info (12021): Found 2 design units, including 1 entities, in source file tiny_fifo.vhd
@@ -1723,43 +1771,43 @@ Info (12021): Found 1 design units, including 1 entities, in source file checksu
     Info (12023): Found entity 1: checksum
 Info (12021): Found 1 design units, including 1 entities, in source file addr_gen.v
     Info (12023): Found entity 1: addr_gen
-Info (12021): Found 4 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl
+Info (12021): Found 4 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/util_pkg.vhdl
     Info (12022): Found design unit 1: util
     Info (12022): Found design unit 2: util-body
     Info (12022): Found design unit 3: util_inverter-rtl
     Info (12023): Found entity 1: util_inverter
-Info (12021): Found 1 design units, including 0 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl
+Info (12021): Found 1 design units, including 0 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_params_pkg.vhdl
     Info (12022): Found design unit 1: toplevel_params
-Info (12021): Found 1 design units, including 0 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl
+Info (12021): Found 1 design units, including 0 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_imem_mau_pkg.vhdl
     Info (12022): Found design unit 1: toplevel_imem_mau
-Info (12021): Found 1 design units, including 0 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl
+Info (12021): Found 1 design units, including 0 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel_globals_pkg.vhdl
     Info (12022): Found design unit 1: toplevel_globals
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/toplevel.vhdl
     Info (12022): Found design unit 1: toplevel-structural
     Info (12023): Found entity 1: toplevel
-Info (12021): Found 4 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl
+Info (12021): Found 4 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/tce_util_pkg.vhdl
     Info (12022): Found design unit 1: tce_util
     Info (12022): Found design unit 2: tce_util-body
     Info (12022): Found design unit 3: tce_util_inverter-rtl
     Info (12023): Found entity 1: tce_util_inverter
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/rf_1wr_1rd_always_1_guarded_0.vhd
     Info (12022): Found design unit 1: rf_1wr_1rd_always_1_guarded_0-rtl
     Info (12023): Found entity 1: rf_1wr_1rd_always_1_guarded_0
-Info (12021): Found 3 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl
+Info (12021): Found 3 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/mac.vhdl
     Info (12022): Found design unit 1: mac32_set_acc_opcodes
     Info (12022): Found design unit 2: fu_mac32-rtl
     Info (12023): Found entity 1: fu_mac32
-Info (12021): Found 3 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl
+Info (12021): Found 3 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl
     Info (12022): Found design unit 1: ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_opcodes
     Info (12022): Found design unit 2: fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3-rtl
     Info (12023): Found entity 1: fu_ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw_always_3
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_out_1.vhdl
     Info (12022): Found design unit 1: fifo_stream_out_1-rtl
     Info (12023): Found entity 1: fifo_stream_out_1
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/fifo_stream_in_1.vhd
     Info (12022): Found design unit 1: fifo_stream_in_1-rtl
     Info (12023): Found entity 1: fifo_stream_in_1
-Info (12021): Found 9 design units, including 3 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl
+Info (12021): Found 9 design units, including 3 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/vhdl/add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor.vhdl
     Info (12022): Found design unit 1: opcodes_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor
     Info (12022): Found design unit 2: shl_shr_shru_pkg
     Info (12022): Found design unit 3: shl_shr_shru_pkg-body
@@ -1769,27 +1817,27 @@ Info (12021): Found 9 design units, including 3 entities, in source file /home/u
     Info (12023): Found entity 1: add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_arith
     Info (12023): Found entity 2: fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_1
     Info (12023): Found entity 3: fu_add_and_eq_gt_gtu_ior_shl_shr_shru_sub_sxhw_sxqw_xor_always_2
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_2_1.vhdl
     Info (12022): Found design unit 1: toplevel_output_socket_cons_2_1-output_socket_andor
     Info (12023): Found entity 1: toplevel_output_socket_cons_2_1
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/output_socket_1_1.vhdl
     Info (12022): Found design unit 1: toplevel_output_socket_cons_1_1-output_socket_andor
     Info (12023): Found entity 1: toplevel_output_socket_cons_1_1
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/input_socket_2.vhdl
     Info (12022): Found design unit 1: toplevel_input_socket_cons_2-input_socket
     Info (12023): Found entity 1: toplevel_input_socket_cons_2
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ifetch.vhdl
     Info (12022): Found design unit 1: toplevel_ifetch-rtl_andor
     Info (12023): Found entity 1: toplevel_ifetch
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/idecompressor.vhdl
     Info (12022): Found design unit 1: toplevel_decompressor-structural
     Info (12023): Found entity 1: toplevel_decompressor
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/ic.vhdl
     Info (12022): Found design unit 1: toplevel_interconn-comb_andor
     Info (12023): Found entity 1: toplevel_interconn
-Info (12021): Found 1 design units, including 0 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl
+Info (12021): Found 1 design units, including 0 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/gcu_opcodes_pkg.vhdl
     Info (12022): Found design unit 1: toplevel_gcu_opcodes
-Info (12021): Found 2 design units, including 1 entities, in source file /home/user/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl
+Info (12021): Found 2 design units, including 1 entities, in source file /users/laheikki21/documents/assp/04-fir-tta-with-mac-vhdl/hdl_files/gcu_ic/decoder.vhdl
     Info (12022): Found design unit 1: toplevel_decoder-rtl_andor
     Info (12023): Found entity 1: toplevel_decoder
 Info (12021): Found 1 design units, including 1 entities, in source file mac.bdf
@@ -2019,6 +2067,7 @@ Info (12133): Instantiated megafunction "instrom:instrom|altsyncram:altsyncram_c
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_6is3.tdf
     Info (12023): Found entity 1: altsyncram_6is3
 Info (12128): Elaborating entity "altsyncram_6is3" for hierarchy "instrom:instrom|altsyncram:altsyncram_component|altsyncram_6is3:auto_generated"
+Critical Warning (127005): Memory depth (256) in the design file differs from memory depth (124) in the Memory Initialization File "C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/fir-with-mac.mif" -- setting initial value for remaining addresses to 0
 Info (12128): Elaborating entity "pc_init" for hierarchy "pc_init:pc_init"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_nt14.tdf
     Info (12023): Found entity 1: altsyncram_nt14
@@ -2070,26 +2119,35 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (17049): 7 registers lost all their fanouts during netlist optimizations.
 Info (17036): Removed 7 MSB VCC or GND address nodes from RAM block "dataram:dataram|altsyncram:altsyncram_component|altsyncram_ivt3:auto_generated|ALTSYNCRAM"
-Info (144001): Generated suppressed messages file /home/user/04-fir-tta-with-mac-vhdl/quartus/output_files/mac.map.smsg
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (18057): The assignment to disallow NOT gate push-back on register "sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|trigger_out_mode_ff" is ignored
+Info (286031): Timing-Driven Synthesis is running on partition "sld_signaltap:auto_signaltap_0"
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "sld_hub:auto_hub|receive[0][0]" is stuck at GND
+Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
+Info (144001): Generated suppressed messages file C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/output_files/mac.map.smsg
 Info (35024): Succesfully connected in-system debug instance "auto_signaltap_0" to all 158 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4183 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4098 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 3948 logic cells
+    Info (21061): Implemented 3863 logic cells
     Info (21064): Implemented 218 RAM segments
     Info (21062): Implemented 6 DSP elements
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 434 megabytes
-    Info: Processing ended: Wed Nov 16 19:16:44 2022
-    Info: Elapsed time: 00:00:34
-    Info: Total CPU time (on all processors): 00:00:23
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 4752 megabytes
+    Info: Processing ended: Thu Nov 17 09:23:36 2022
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:12
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in /home/user/04-fir-tta-with-mac-vhdl/quartus/output_files/mac.map.smsg.
+The suppressed messages can be found in C:/Users/laheikki21/Documents/assp/04-fir-tta-with-mac-vhdl/quartus/output_files/mac.map.smsg.
 
 
